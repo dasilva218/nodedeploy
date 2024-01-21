@@ -3,8 +3,9 @@ import express from 'express';
 
 const App = express();
 
+
 App.get('/', (req, res) => {
-  res.send('<h1>Bonjour</h1>');
+  res.send('<h1>Bonjour hebergement ok</h1>');
 });
 
 const Server = createServer(App).listen(8080, () => {
